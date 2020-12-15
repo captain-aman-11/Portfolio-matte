@@ -107,4 +107,10 @@ $(document).ready(function () {
       enable: true,
     },
   });
+
+  // Slider
+  $(".slider").slick({
+    arrows: false,
+    autoplay: true,
+  });
 });
