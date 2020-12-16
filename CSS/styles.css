@@ -82,6 +82,14 @@ nav .inner button {
   font-size: 14px;
   border-radius: 4px;
 }
+nav .inner button a {
+  color: var(--pure);
+  text-decoration: none;
+}
+section.about .content .left button a {
+  color: var(--info);
+  text-decoration: none;
+}
 
 section.profile {
   background: var(--black);

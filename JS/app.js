@@ -25,7 +25,7 @@ $(document).ready(function () {
       counter.innerText = 0;
       let target = +counter.dataset.count;
 
-      let step = target / 100;
+      let step = target / 1000;
 
       let countIt = function () {
         let displayedCount = +counter.innerText;
