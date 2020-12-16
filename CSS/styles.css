@@ -512,3 +512,9 @@ section.work .wrapper .slider__wrapper .slider .slide {
 section.work .wrapper .slider__wrapper {
   overflow: hidden;
 }
+
+section.partners .brands__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
